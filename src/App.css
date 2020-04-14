@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nice-yellow {
+  color: #c4911c;
+}
+.nice-red {
+  color: #C60806;
+}
+
+.nice-blue {
+  color: #103942;
+}
+
+.nice-orange {
+  color: #B45312;
+}
+
+.back-blue {
+  background-color: #1B2831;
+}
+
+.kpi {
+  background-image: url("https://images.pexels.com/photos/1300578/pexels-photo-1300578.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  color: Black;
+  max-width: 90%;
+  height: 300px;
+
+}
+
+.graph {
+  background-image: url("https://images.pexels.com/photos/114820/pexels-photo-114820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  color: Black;
+  max-width: 90%;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.graph-body {
+  opacity: 1;
+  background-color: white;
+  margin: 1rem;
+  color: black;
+  border-radius: 8px;
+  min-width: 175px;
+  padding: 2rem;
+}
